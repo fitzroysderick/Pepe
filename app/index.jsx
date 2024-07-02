@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
 import { Link } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 
 export default function index() {

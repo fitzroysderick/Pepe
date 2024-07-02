@@ -25,7 +25,7 @@ export default function home() {
         <View className="items-center">
           <View className="flex-row">
             <Pressable
-              onPress={() => router.push(`/course-material`)}
+              onPress={() => router.push(`course-material`)}
               style={{
                 elevation: 10,
               }}
@@ -41,7 +41,7 @@ export default function home() {
               </Text>
             </Pressable>
             <Pressable
-              onPress={() => router.push(`/chapters`)}
+              onPress={() => router.push(`chapters`)}
               style={{
                 elevation: 10,
               }}
@@ -59,7 +59,7 @@ export default function home() {
           </View>
           <View className="flex-row">
             <Pressable
-              onPress={() => router.push(`/quiz-assessment`)}
+              onPress={() => router.push(`quiz-assessment`)}
               style={{
                 elevation: 10,
               }}
@@ -75,7 +75,7 @@ export default function home() {
               </Text>
             </Pressable>
             <Pressable
-              onPress={() => router.push(`/overview-map`)}
+              onPress={() => router.push(`overview-map`)}
               style={{
                 elevation: 10,
               }}

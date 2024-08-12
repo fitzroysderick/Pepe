@@ -1,14 +1,5 @@
-import React from "react";
-import { View, Text } from "react-native";
-import { Link } from "expo-router";
-import { StatusBar } from "expo-status-bar";
+import { Redirect } from "expo-router";
 
 export default function index() {
-  return (
-    <View className="mt-20">
-      <Text>index</Text>
-      <Link href="/home">Go to home</Link>
-      <StatusBar style="light" />
-    </View>
-  );
+  return <Redirect href="/home" />;
 }

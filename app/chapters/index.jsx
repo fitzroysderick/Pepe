@@ -1,10 +1,8 @@
 import React from "react";
-import { View, Text, Pressable, FlatList } from "react-native";
-import { router } from "expo-router";
+import { View, FlatList } from "react-native";
 
+import Header from "../../components/ui/Header";
 import ChapterCard from "../../components/cards/ChapterCard";
-
-import { Ionicons } from "@expo/vector-icons";
 
 export default function index() {
   const chapters = [
@@ -40,20 +38,9 @@ export default function index() {
     },
   ];
   return (
-    <View className="flex-1 gap-y-20">
-      <View className="bg-[#2980B9] px-4 pt-4 pb-8 rounded-b-3xl">
-        <View className="flex-row items-center gap-x-2 mt-8">
-          <Pressable onPress={() => router.push("home")}>
-            <Ionicons
-              name="arrow-back-circle-outline"
-              size={30}
-              color="#FFFF"
-            />
-          </Pressable>
-          <Text className="text-2xl font-bold text-white">Chapters</Text>
-        </View>
-      </View>
-      <View className="items-center">
+    <View>
+      <Header title="Chapters" />
+      <View className="pt-20 items-center">
         <FlatList
           data={chapters}
           numColumns={2}
@@ -64,7 +51,7 @@ export default function index() {
               route={item.route}
             />
           )}
-          keyExtractor={(item) => item.id}
+          keyExtractor={(item) => item.label}
         />
       </View>
     </View>

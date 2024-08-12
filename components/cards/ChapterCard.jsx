@@ -1,5 +1,5 @@
-import { Text, Image, Pressable } from "react-native";
 import React from "react";
+import { Text, Image, Pressable } from "react-native";
 import { router } from "expo-router";
 
 export default function ChapterCard({ label, image, route }) {

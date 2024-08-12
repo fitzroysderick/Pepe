@@ -1,30 +1,15 @@
 import React from "react";
-import { SafeAreaView } from "react-native-safe-area-context";
-import { View, Text, Pressable, Image, ScrollView } from "react-native";
-import { router } from "expo-router";
+import { View, Text, Image, ScrollView } from "react-native";
 
 import chapter1 from "../../../constants/chapters/chapter1";
 
-import { Ionicons } from "@expo/vector-icons";
+import Header from "../../../components/ui/Header";
 
 export default function Chapter1() {
   return (
-    <SafeAreaView className="flex-1">
-      <View className="gap-y-4">
-        <View className="bg-[#2980B9] px-4 pt-4 pb-8 rounded-b-3xl">
-          <View className="flex-row items-center gap-x-2 mt-8">
-            <Pressable onPress={() => router.push("chapters")}>
-              <Ionicons
-                name="arrow-back-circle-outline"
-                size={30}
-                color="#FFFF"
-              />
-            </Pressable>
-            <Text className="text-2xl font-bold text-white">
-              {chapter1.title}
-            </Text>
-          </View>
-        </View>
+    <View>
+      <Header title={chapter1.title} />
+      <View className="pt-4 gap-y-4">
         <ScrollView className="h-full px-4">
           <Image source={chapter1.image} className="w-full h-60 rounded-3xl" />
           <View className="mt-4 pb-40">
@@ -112,6 +97,6 @@ export default function Chapter1() {
           </View>
         </ScrollView>
       </View>
-    </SafeAreaView>
+    </View>
   );
 }

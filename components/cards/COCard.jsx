@@ -1,5 +1,5 @@
-import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
+import { Text, Image, Pressable } from "react-native";
 import { router } from "expo-router";
 
 export default function COCard({ id, label, image }) {

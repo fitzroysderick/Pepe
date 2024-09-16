@@ -34,7 +34,7 @@ export default function _layout() {
           }}
         />
         <Tabs.Screen
-          name="chapters"
+          name="travels"
           options={{
             tabBarIcon: ({ color, size }) => (
               <View className="-ml-24">

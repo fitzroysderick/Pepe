@@ -9,10 +9,10 @@ export default function App() {
       }}
     >
       <Stack.Screen name="(tabs)" />
-      <Stack.Screen name="course-material" />
       <Stack.Screen name="chapters" />
-      <Stack.Screen name="quiz-assessment" />
+      <Stack.Screen name="course-material" />
       <Stack.Screen name="overview-map" />
+      <Stack.Screen name="quiz-assessment" />
     </Stack>
   );
 }

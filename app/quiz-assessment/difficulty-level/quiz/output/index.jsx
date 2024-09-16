@@ -6,6 +6,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import Button from "../../../../../components/ui/Button";
 import Label from "../../../../../components/ui/Label";
 import { useScore } from "../../../../../hooks/use-score";
+import { useOutOf } from "../../../../../hooks/use-out-of";
 
 export default function Score() {
   const { score, updateScore } = useScore((state) => ({
@@ -23,12 +24,16 @@ export default function Score() {
     updateScore(0);
   };
 
+  const outOf = useOutOf((state) => state.outOf);
+
   return (
     <SafeAreaView className="flex-1 items-center justify-center relative">
-      <Label title="Your Score:" />
-      <View className="mt-8 h-40 w-40 bg-[#2980B9] rounded-full items-center justify-center">
+      <View className="mb-8 h-52 w-52 bg-[#2980B9] rounded-full items-center justify-center">
         <Text className="text-5xl text-white">{score}</Text>
+        <View className="w-[50%] h-1 bg-white"></View>
+        <Text className="text-5xl text-white mt-2">{outOf}</Text>
       </View>
+      <Label title="Your Score" />
       <View className="absolute bottom-8 w-full items-center">
         <Button
           onPress={() => handleRetake()}

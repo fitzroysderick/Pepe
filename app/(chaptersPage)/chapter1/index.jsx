@@ -42,11 +42,13 @@ export default function Chapter1() {
                         source={proponent.image}
                         className="w-28 h-28 rounded-xl"
                       />
-                      <View className="ml-2">
+                      <View className="ml-2 flex-shrink">
                         <Text className="text-xl font-bold">
                           {proponent.name}
                         </Text>
-                        <Text>{proponent.description}</Text>
+                        <Text className="flex-shrink">
+                          {proponent.description}
+                        </Text>
                       </View>
                     </View>
                   ))}

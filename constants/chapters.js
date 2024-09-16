@@ -2,10 +2,10 @@ export const chapters = [
   {
     id: "1",
     name: "Chapter 1",
-    
+
     data: [
       {
-        title: "Republic Act No.1425 \nRizal Law",
+        title: "Republic Act No.1425 Rizal Law",
         descriptions: [
           {
             title: "Section 1: ",
@@ -63,19 +63,19 @@ export const chapters = [
         opponents: [
           {
             image: require("../assets/francisco.png"),
-            name: "Senator Francisco \nRodrigo",
+            name: "Senator Francisco Rodrigo",
             description:
               "Francisco 'Soc' Aldana Rodrigo (January 29, 1914 – January 4, 1998) was a Filipino playwright, lawyer, broadcaster, and a Senator of the Philippines from 1955 to 1967.",
           },
           {
             image: require("../assets/decoroso.png"),
-            name: "Senator  Decoroso \nRosales",
+            name: "Senator  Decoroso Rosales",
             description:
               "Rosales was born on 20 December 1885 in Calbayog, Samar to Basilio Rosales and Aqueda Ras. He received his Associate of Arts degree in 1920 and Bachelor of Laws degree both from the University of the Philippines. He was admitted to the Bar in 1933.",
           },
           {
             image: require("../assets/mariano.png"),
-            name: "Senator Mariano \nCuenco",
+            name: "Senator Mariano Cuenco",
             description:
               "Don Mariano Jesús Cuenco y Diosómito[citation needed] (January 16, 1888 – February 25, 1964)[1] was a Filipino politician and writer from Cebu. He was the 4th President of the Senate of the Philippines.",
           },
@@ -107,12 +107,12 @@ export const chapters = [
           {
             title: "What is Heroism?",
             content:
-              "\n- Heroism comes from the Greek word heroes, which is referred to as a demigod. As someone who shows great courage and valor is referred to as a hero, their actions are considered to be acts of heroism.",
+              "- Heroism comes from the Greek word heroes, which is referred to as a demigod. As someone who shows great courage and valor is referred to as a hero, their actions are considered to be acts of heroism.",
           },
           {
             title: "",
             content:
-              "\n- Heroism is the quality of exhibiting exceptional courage, selflessness, and sacrifice in the face of challenges or danger.",
+              "- Heroism is the quality of exhibiting exceptional courage, selflessness, and sacrifice in the face of challenges or danger.",
           },
           {
             title: "Section 3: ",
@@ -160,19 +160,19 @@ export const chapters = [
         opponents: [
           {
             image: require("../assets/francisco.png"),
-            name: "Senator Francisco \nRodrigo",
+            name: "Senator Francisco Rodrigo",
             description:
               "Francisco 'Soc' Aldana Rodrigo (January 29, 1914 – January 4, 1998) was a Filipino playwright, lawyer, broadcaster, and a Senator of the Philippines from 1955 to 1967.",
           },
           {
             image: require("../assets/decoroso.png"),
-            name: "Senator  Decoroso \nRosales",
+            name: "Senator  Decoroso Rosales",
             description:
               "Rosales was born on 20 December 1885 in Calbayog, Samar to Basilio Rosales and Aqueda Ras. He received his Associate of Arts degree in 1920 and Bachelor of Laws degree both from the University of the Philippines. He was admitted to the Bar in 1933.",
           },
           {
             image: require("../assets/mariano.png"),
-            name: "Senator Mariano \nCuenco",
+            name: "Senator Mariano Cuenco",
             description:
               "Don Mariano Jesús Cuenco y Diosómito[citation needed] (January 16, 1888 – February 25, 1964)[1] was a Filipino politician and writer from Cebu. He was the 4th President of the Senate of the Philippines.",
           },

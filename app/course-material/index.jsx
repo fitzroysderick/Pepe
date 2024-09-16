@@ -15,7 +15,7 @@ export default function index() {
           study of his novels and other writings would allow the students a view
           into the historical realities of the Philippines and the world in the
           19th century and relate them to the contemporary social and global
-          situations
+          situations.
         </Text>
       </View>
     </View>

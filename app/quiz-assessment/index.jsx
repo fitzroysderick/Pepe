@@ -4,7 +4,6 @@ import { router } from "expo-router";
 
 import quizAssessment from "../../constants/quizAssessment";
 import QuizAssessmentCard from "../../components/cards/QuizAssessmentCard";
-import Header from "../../components/ui/Header";
 import Label from "../../components/ui/Label";
 
 import { AntDesign } from "@expo/vector-icons";

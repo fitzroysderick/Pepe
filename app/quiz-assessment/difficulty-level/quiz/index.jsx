@@ -7,6 +7,7 @@ import quizzes from "../../../../constants/quizzes";
 import { useSelectedChapter } from "../../../../hooks/use-selected-chapter";
 import { useSelectedLevel } from "../../../../hooks/use-selected-level";
 import { useScore } from "../../../../hooks/use-score";
+import { useOutOf } from "../../../../hooks/use-out-of";
 
 export default function SelectedLevel() {
   const [randomQuestion, setRandomQuestion] = useState("");
@@ -24,7 +25,10 @@ export default function SelectedLevel() {
   const content = quizzes.find((q) => q.id === selectedChapter)?.content;
   const filteredContent = content.filter((c) => c.level === selectedLevel);
 
-  const [outOf, _] = useState(filteredContent.length);
+  const { outOf, updateOutOf } = useOutOf((state) => ({
+    outOf: state.outOf,
+    updateOutOf: state.updateOutOf,
+  }));
 
   const generateRandomQuestion = () => {
     const availableQuestions = filteredContent.filter(
@@ -39,6 +43,7 @@ export default function SelectedLevel() {
 
   useEffect(() => {
     generateRandomQuestion();
+    updateOutOf(filteredContent.length);
   }, []);
 
   const isMultipleChoice = !randomQuestion.choices;
@@ -52,7 +57,6 @@ export default function SelectedLevel() {
       randomQuestion.answer.toLowerCase() === userAnswer.toLowerCase();
     if (isCorrectAnswer) {
       updateScore(score + 1);
-      console.log("Its correct");
     }
 
     setUserAnswer("");

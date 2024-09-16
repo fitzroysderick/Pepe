@@ -11,7 +11,9 @@ export default function Header({ title }) {
         <Pressable onPress={() => router.back()}>
           <AntDesign name="arrowleft" size={30} color="#FFFF" />
         </Pressable>
-        <Text className="text-2xl font-bold text-white">{title}</Text>
+        <Text className="text-2xl font-bold text-white flex-shrink">
+          {title}
+        </Text>
       </View>
     </View>
   );

@@ -99,7 +99,7 @@ export default function SelectedLevel() {
                 <View className="h-10 w-10 items-center justify-center bg-white rounded-full">
                   <Text className="font-bold">{c.letter}</Text>
                 </View>
-                <Text className="ml-4 text-lg font-bold text-white">
+                <Text className="ml-4 text-lg font-bold text-white flex-shrink">
                   {c.words}
                 </Text>
               </TouchableOpacity>

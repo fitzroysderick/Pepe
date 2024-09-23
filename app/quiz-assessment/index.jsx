@@ -10,7 +10,7 @@ import { AntDesign } from "@expo/vector-icons";
 
 export default function index() {
   return (
-    <View>
+    <View className="flex-1">
       <View className="bg-[#2980B9] px-4 pt-4 pb-8 rounded-b-3xl">
         <View className="flex-row items-center gap-x-2 mt-8">
           <Pressable onPress={() => router.push("/home")}>
@@ -19,9 +19,9 @@ export default function index() {
           <Text className="text-2xl font-bold text-white">Quiz Assessment</Text>
         </View>
       </View>
-      <ScrollView className="pt-8 space-y-4">
+      <ScrollView className="flex-1 pt-8 space-y-4">
         <Label title="Choose a Chapter" />
-        <View className="mx-8">
+        <View className="mx-8 pb-20">
           {quizAssessment.map((qa) => (
             <QuizAssessmentCard key={qa.id} id={qa.id} label={qa.label} />
           ))}

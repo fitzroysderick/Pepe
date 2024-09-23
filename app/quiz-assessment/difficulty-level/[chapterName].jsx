@@ -41,7 +41,7 @@ export default function index() {
             >
               <Text className="text-[20px] font-medium">Easy</Text>
               <Image
-                source={require("../../../assets/medium.png")}
+                source={require("../../../assets/easy.png")}
                 className="w-28 h-28"
                 resizeMode="contain"
               />
@@ -52,7 +52,7 @@ export default function index() {
             >
               <Text className="text-[20px] font-medium">Medium</Text>
               <Image
-                source={require("../../../assets/medium.png")}
+                source={require("../../../assets/mediumnew.png")}
                 className="w-28 h-28"
                 resizeMode="contain"
                 s
@@ -65,7 +65,7 @@ export default function index() {
           >
             <Text className="text-[20px] font-medium">Hard</Text>
             <Image
-              source={require("../../../assets/medium.png")}
+              source={require("../../../assets/hardnew.png")}
               className="w-28 h-28"
               resizeMode="contain"
             />

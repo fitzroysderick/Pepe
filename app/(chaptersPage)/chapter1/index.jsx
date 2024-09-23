@@ -9,7 +9,7 @@ export default function Chapter1() {
   return (
     <View>
       <Header title={chapter1.title} />
-      <View className="pt-4 gap-y-4">
+      <View className="pt-4 gap-y-4 pb-32">
         <ScrollView className="h-full px-4">
           <Image source={chapter1.image} className="w-full h-60 rounded-3xl" />
           <View className="mt-4 pb-40">

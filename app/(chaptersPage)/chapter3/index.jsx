@@ -7,7 +7,7 @@ export default function Chapter3() {
   return (
     <View>
       <Header title="Chapter 3" />
-      <View className="pt-4 h-full gap-y-4">
+      <View className="pt-4 h-full gap-y-4 pb-52">
         <ScrollView className="h-full px-4 space-y-4">
           <Image
             source={require("../../../assets/chapter3-f1.png")}

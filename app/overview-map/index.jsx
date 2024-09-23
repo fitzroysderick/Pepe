@@ -37,43 +37,43 @@ export default function index() {
             </Pressable>
             <Text className="text-[8px]">Laguna</Text>
           </View>
-          <View className="absolute top-32 left-[170px] items-center">
+          <View className="absolute top-[120px] left-[140px] items-center">
             <Pressable onPress={() => handlePinClick("Manila")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Manila</Text>
           </View>
-          <View className="absolute top-[410px] left-[250px] items-center">
+          <View className="absolute top-[440px] left-[190px] items-center">
             <Pressable onPress={() => handlePinClick("Dapitan")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Dapitan</Text>
           </View>
-          <View className="absolute top-[377px] left-[255px] items-center">
+          <View className="absolute top-[377px] left-[205px] items-center">
             <Pressable onPress={() => handlePinClick("Dumaguete")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Dumaguete</Text>
           </View>
-          <View className="absolute top-[115px] left-[115px] items-center">
+          <View className="absolute top-[130px] left-[100px] items-center">
             <Pressable onPress={() => handlePinClick("Pampanga")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Pampanga</Text>
           </View>
-          <View className="absolute top-32 left-[135px] items-center">
+          <View className="absolute top-40 left-[130px] items-center">
             <Pressable onPress={() => handlePinClick("Bulacan")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Bulacan</Text>
           </View>
-          <View className="absolute top-80 left-56  items-center">
+          <View className="absolute top-72 left-[190px]  items-center">
             <Pressable onPress={() => handlePinClick("Iloilo")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Iloilo</Text>
           </View>
-          <View className="absolute top-80 left-[275px]  items-center">
+          <View className="absolute top-80 left-[250px]  items-center">
             <Pressable onPress={() => handlePinClick("Cebu")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
@@ -85,7 +85,7 @@ export default function index() {
             </Pressable>
             <Text className="text-[8px]">Cavite</Text>
           </View>
-          <View className="absolute top-[350px] left-[291px]  items-center">
+          <View className="absolute top-[350px] left-[266px]  items-center">
             <Pressable onPress={() => handlePinClick("Bohol")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>

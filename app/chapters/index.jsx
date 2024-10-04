@@ -40,7 +40,7 @@ export default function index() {
   return (
     <View>
       <Header title="Chapters" />
-      <View className="pt-20 items-center">
+      <View className="pt-8 items-center">
         <FlatList
           data={chapters}
           numColumns={2}

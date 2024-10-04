@@ -101,10 +101,10 @@ export default function Chapter4() {
             <Text className="font-bold">Rizal’s Family Tree</Text>
           </View>
           <Image
-              source={require("../../../assets/rizaltree.png")}
-              className="w-full h-60 rounded-3xl"
-              resizeMode="stretch"
-            />
+            source={require("../../../assets/rizaltree.png")}
+            className="w-full h-60 rounded-3xl"
+            resizeMode="stretch"
+          />
           <View className="space-y-2">
             <Text className="font-bold">The Mercado Family</Text>
           </View>

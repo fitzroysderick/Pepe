@@ -513,18 +513,43 @@ const DumagueteDesc = () => {
       </View>
       <View className="space-y-4">
         <Text className="text-xl font-bold">
-          Jose Rizal Boulevard 100 years (1916-2016)
+          Jose Rizal Boulevard 100 years ago (1916-2016)
         </Text>
         <Image
           source={require("../../assets/blvd1-dumaguete.png")}
           className="w-full h-48 rounded-xl"
           resizeMode="stretch"
         />
+        <Text className="mt-2 text-lg">
+          Paseo de Rizal, or the Rizal Boulevard, follows the shoreline of
+          Dumaguete City, and is lined with the beautiful formerly private
+          houses, the so-called sugar housesof local hacenderos and the
+          buildings of Silliman University. When the latter was still Silliman
+          Institute in the early years of the 20th century, it had become a
+          popular school for many students from other places to matriculate in,
+          and people started arriving in droves in Dumaguete, which had no pier.
+          To land in Dumaguete then, according to historian Caridad Aldecoa
+          Rodriguez, passengers had to be carried over the shoulders of some
+          husky cargadores from the boat to the shore to avoid becoming wet.
+          This was a common sight at the beach in those times.
+        </Text>
         <Image
           source={require("../../assets/blvd2-dumaguete.png")}
           className="w-full h-48 rounded-xl"
           resizeMode="stretch"
         />
+        <Text className="mt-2 text-lg">
+          By June 1919, Vicente Flagrante, the local district engineer, had
+          finished the plans for a pier in Dumaguete, and an appropriation for
+          P50,000 was approved, with succeeding appropriations coming until
+          1935. It was the greatest improvement Dumaguete had ever undertaken at
+          that time. Before the building of the pier, however, the construction
+          of a boulevard running parallel to the seashore of Dumaguete was a
+          stroke of genius for the town planners. It was designed to connect the
+          provincial road with the port, and four principal streets of Dumaguete
+          now declared first-class roads and were joined with the boulevard by
+          1916.
+        </Text>
       </View>
     </View>
   );
@@ -681,6 +706,14 @@ const IloiloDesc = () => {
           className="w-full h-48 rounded-xl"
           resizeMode="stretch"
         />
+        <Text className="mt-2 text-lg">
+          The spot identified where to erect Rizal’s statue here was the center
+          of Plaza Libertad. It was an inspired choice. It was in Plaza Libertad
+          where the Philippine flag was raised on Dec. 25, 1898 during the
+          Philippine Revolution two years after Rizal’s execution after
+          Spaniards surrendered to the local troops led by Ilonggo hero General
+          Martin Delgado.
+        </Text>
       </View>
     </View>
   );

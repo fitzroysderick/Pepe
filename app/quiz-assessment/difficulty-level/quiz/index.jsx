@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, Alert } from "react-native";
-import { router } from "expo-router";
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  Alert,
+  Keyboard,
+} from "react-native";
+import { router, useLocalSearchParams } from "expo-router";
 
 import Header from "../../../../components/ui/Header";
 import quizzes from "../../../../constants/quizzes";
-import { useSelectedChapter } from "../../../../hooks/use-selected-chapter";
-import { useSelectedLevel } from "../../../../hooks/use-selected-level";
 import { useScore } from "../../../../hooks/use-score";
 import { useOutOf } from "../../../../hooks/use-out-of";
 
 export default function SelectedLevel() {
+  const { selectedLevel, selectedChapter } = useLocalSearchParams();
   const [randomQuestion, setRandomQuestion] = useState("");
   const [userAnswer, setUserAnswer] = useState("");
   const { score, updateScore } = useScore((state) => ({
@@ -18,9 +24,9 @@ export default function SelectedLevel() {
   }));
   const [questionNumber, setQuestionNumber] = useState(1);
   const [usedQuestions, setUsedQuestions] = useState([]);
+  const [isKeyboardVisible, setKeyboardVisible] = useState(false);
 
-  const selectedLevel = useSelectedLevel((state) => state.selectedLevel);
-  const selectedChapter = useSelectedChapter((state) => state.selectedChapter);
+  console.log(typeof selectedChapter);
 
   const content = quizzes.find((q) => q.id === selectedChapter)?.content;
   const filteredContent = content.filter((c) => c.level === selectedLevel);
@@ -44,12 +50,30 @@ export default function SelectedLevel() {
   useEffect(() => {
     generateRandomQuestion();
     updateOutOf(filteredContent.length);
+
+    const keyboardDidShowListener = Keyboard.addListener(
+      "keyboardDidShow",
+      () => {
+        setKeyboardVisible(true);
+      }
+    );
+    const keyboardDidHideListener = Keyboard.addListener(
+      "keyboardDidHide",
+      () => {
+        setKeyboardVisible(false);
+      }
+    );
+
+    return () => {
+      keyboardDidShowListener.remove();
+      keyboardDidHideListener.remove();
+    };
   }, []);
 
   const isMultipleChoice = !randomQuestion.choices;
 
   const handleNext = () => {
-    if (!userAnswer) {
+    if (!userAnswer && !isMultipleChoice) {
       return Alert.alert("Please answer this question first!");
     }
 
@@ -107,14 +131,16 @@ export default function SelectedLevel() {
           )}
         </View>
       </View>
-      <TouchableOpacity
-        onPress={() => handleNext()}
-        className="absolute bottom-10 w-[90%] p-4 border border-[#2980B9] rounded-2xl self-center"
-      >
-        <Text className="text-lg font-bold text-[#2980B9] text-center">
-          {questionNumber === outOf ? "Submit" : "Next"}
-        </Text>
-      </TouchableOpacity>
+      {!isKeyboardVisible && (
+        <TouchableOpacity
+          onPress={() => handleNext()}
+          className="absolute bottom-10 w-[90%] p-4 border border-[#2980B9] rounded-2xl self-center"
+        >
+          <Text className="text-lg font-bold text-[#2980B9] text-center">
+            {questionNumber === outOf ? "Submit" : "Next"}
+          </Text>
+        </TouchableOpacity>
+      )}
     </View>
   );
 }

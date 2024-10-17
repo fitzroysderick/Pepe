@@ -31,13 +31,13 @@ export default function index() {
             resizeMode="cover"
             className="w-full"
           />
-          <View className="absolute top-44 left-40 items-center">
+          <View className="absolute top-44 left-[165px] items-center">
             <Pressable onPress={() => handlePinClick("Laguna")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Laguna</Text>
           </View>
-          <View className="absolute top-[120px] left-[140px] items-center">
+          <View className="absolute top-[162px] left-[123px] items-center">
             <Pressable onPress={() => handlePinClick("Manila")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
@@ -55,13 +55,13 @@ export default function index() {
             </Pressable>
             <Text className="text-[8px]">Dumaguete</Text>
           </View>
-          <View className="absolute top-[130px] left-[100px] items-center">
+          <View className="absolute top-[130px] left-[90px] items-center">
             <Pressable onPress={() => handlePinClick("Pampanga")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Pampanga</Text>
           </View>
-          <View className="absolute top-40 left-[130px] items-center">
+          <View className="absolute top-[125px] left-[130px] items-center">
             <Pressable onPress={() => handlePinClick("Bulacan")}>
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
@@ -90,6 +90,18 @@ export default function index() {
               <Entypo name="location-pin" size={30} color="#2980B9" />
             </Pressable>
             <Text className="text-[8px]">Bohol</Text>
+          </View>
+          <View className="absolute top-[135px] left-[152px]  items-center">
+            <Pressable onPress={() => handlePinClick("Antipolo")}>
+              <Entypo name="location-pin" size={30} color="#2980B9" />
+            </Pressable>
+            <Text className="text-[8px]">Antipolo</Text>
+          </View>
+          <View className="absolute top-[110px] left-[110px]  items-center">
+            <Pressable onPress={() => handlePinClick("Tarlac")}>
+              <Entypo name="location-pin" size={30} color="#2980B9" />
+            </Pressable>
+            <Text className="text-[8px]">Tarlac</Text>
           </View>
         </View>
       </View>

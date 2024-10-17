@@ -72,7 +72,10 @@ export default function home() {
                   className="w-20 h-20"
                   resizeMode="contain"
                 />
-                <Text className="text-center font-semibold text-xs">
+                <Text
+                  className="text-center font-semibold text-xs"
+                  numberOfLines={1}
+                >
                   Quiz Assessment
                 </Text>
               </View>

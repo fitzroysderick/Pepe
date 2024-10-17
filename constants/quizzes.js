@@ -269,7 +269,7 @@ const quizzes = [
       {
         level: "Medium",
         question: "Who disguised themselves as sailors to rescue Rizal?",
-        answer: "C",
+        answer: "Emilio Jacinto and Guillermo Masangkay",
       },
       {
         level: "Medium",
@@ -372,30 +372,6 @@ const quizzes = [
         choices: [
           {
             letter: "A",
-            words: "September 3, 1896",
-          },
-          {
-            letter: "B",
-            words: "September 27, 1896",
-          },
-          {
-            letter: "C",
-            words: "October 3, 1896",
-          },
-          {
-            letter: "D",
-            words: "November 3, 1896",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who informed Rizal of a telegram from Madrid that he would be treated as a prisoner?",
-        choices: [
-          {
-            letter: "A",
             words: "His plans to escape",
           },
           {
@@ -411,11 +387,12 @@ const quizzes = [
             words: "His refusal to be rescued",
           },
         ],
-        answer: "A",
+        answer: "B",
       },
       {
         level: "Medium",
-        question: "On what date did Rizal arrive in Manila on the ship Colon?",
+        question:
+          "Who informed Rizal of a telegram from Madrid that he would be treated as a prisoner?",
         choices: [
           {
             letter: "A",
@@ -434,12 +411,11 @@ const quizzes = [
             words: "Captain Rafael Dominguez",
           },
         ],
-        answer: "C",
+        answer: "A",
       },
       {
         level: "Medium",
-        question:
-          "Who headed the Spanish military tribunal that investigated Rizal?",
+        question: "On what date did Rizal arrive in Manila on the ship Colon?",
         choices: [
           {
             letter: "A",
@@ -458,11 +434,12 @@ const quizzes = [
             words: "September 3, 1896",
           },
         ],
-        answer: "A",
+        answer: "C",
       },
       {
         level: "Medium",
-        question: "How many kinds of evidence were presented against Rizal?",
+        question:
+          "Who headed the Spanish military tribunal that investigated Rizal?",
         choices: [
           {
             letter: "A",
@@ -481,12 +458,11 @@ const quizzes = [
             words: "Captain Rafael Dominguez",
           },
         ],
-        answer: "B",
+        answer: "A",
       },
       {
         level: "Medium",
-        question:
-          "Which letter showed Rizal’s connection with the Filipino reform campaign in Spain?",
+        question: "How many kinds of evidence were presented against Rizal?",
         choices: [
           {
             letter: "A",
@@ -505,7 +481,7 @@ const quizzes = [
             words: "Four",
           },
         ],
-        answer: "A letter of Antonio Luna to Mariano Ponce",
+        answer: "B",
       },
       {
         level: "Medium",

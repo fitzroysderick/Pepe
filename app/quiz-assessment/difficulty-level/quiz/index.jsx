@@ -13,9 +13,12 @@ import Header from "../../../../components/ui/Header";
 import quizzes from "../../../../constants/quizzes";
 import { useScore } from "../../../../hooks/use-score";
 import { useOutOf } from "../../../../hooks/use-out-of";
+import { useSelectedChapter } from "../../../../hooks/use-selected-chapter";
+import { useSelectedLevel } from "../../../../hooks/use-selected-level";
 
 export default function SelectedLevel() {
-  const { selectedLevel, selectedChapter } = useLocalSearchParams();
+  const selectedChapter = useSelectedChapter((state) => state.selectedChapter);
+  const selectedLevel = useSelectedLevel((state) => state.selectedLevel);
   const [randomQuestion, setRandomQuestion] = useState("");
   const [userAnswer, setUserAnswer] = useState("");
   const { score, updateScore } = useScore((state) => ({
@@ -26,10 +29,13 @@ export default function SelectedLevel() {
   const [usedQuestions, setUsedQuestions] = useState([]);
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);
 
-  console.log(typeof selectedChapter);
-
   const content = quizzes.find((q) => q.id === selectedChapter)?.content;
-  const filteredContent = content.filter((c) => c.level === selectedLevel);
+  const filteredContent = content.filter((c) => c.level === "Hard");
+
+  const resetQuiz = () => {
+    setQuestionNumber(1);
+    setUsedQuestions([]);
+  };
 
   const { outOf, updateOutOf } = useOutOf((state) => ({
     outOf: state.outOf,
@@ -37,7 +43,7 @@ export default function SelectedLevel() {
   }));
 
   const generateRandomQuestion = () => {
-    const availableQuestions = filteredContent.filter(
+    const availableQuestions = filteredContent?.filter(
       (question) => !usedQuestions.includes(question)
     );
 
@@ -83,10 +89,12 @@ export default function SelectedLevel() {
       updateScore(score + 1);
     }
 
+
     setUserAnswer("");
     setQuestionNumber(questionNumber + 1);
 
     if (questionNumber === outOf) {
+      resetQuiz();
       router.push("/quiz-assessment/difficulty-level/quiz/output");
     } else {
       generateRandomQuestion();

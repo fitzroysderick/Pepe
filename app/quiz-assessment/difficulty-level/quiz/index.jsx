@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   Alert,
   Keyboard,
+  ScrollView,
 } from "react-native";
 import { router, useLocalSearchParams } from "expo-router";
 
@@ -30,7 +31,7 @@ export default function SelectedLevel() {
   const [isKeyboardVisible, setKeyboardVisible] = useState(false);
 
   const content = quizzes.find((q) => q.id === selectedChapter)?.content;
-  const filteredContent = content.filter((c) => c.level === "Hard");
+  const filteredContent = content.filter((c) => c.level === selectedLevel);
 
   const resetQuiz = () => {
     setQuestionNumber(1);
@@ -89,7 +90,6 @@ export default function SelectedLevel() {
       updateScore(score + 1);
     }
 
-
     setUserAnswer("");
     setQuestionNumber(questionNumber + 1);
 
@@ -102,9 +102,9 @@ export default function SelectedLevel() {
   };
 
   return (
-    <View className="h-full relative">
+    <View className="flex-1 relative">
       <Header title={selectedLevel} />
-      <View className="pt-8 px-4 space-y-8">
+      <ScrollView className="flex-1 pt-8 px-4 space-y-8">
         <Text>
           {questionNumber} / {outOf}
         </Text>
@@ -138,13 +138,13 @@ export default function SelectedLevel() {
             ))
           )}
         </View>
-      </View>
+      </ScrollView>
       {!isKeyboardVisible && (
         <TouchableOpacity
           onPress={() => handleNext()}
-          className="absolute bottom-10 w-[90%] p-4 border border-[#2980B9] rounded-2xl self-center"
+          className="absolute right-4 bottom-4 p-4 bg-white border border-[#2980B9] rounded-xl self-center z-50"
         >
-          <Text className="text-lg font-bold text-[#2980B9] text-center">
+          <Text className="font-bold text-[#2980B9] text-center">
             {questionNumber === outOf ? "Submit" : "Next"}
           </Text>
         </TouchableOpacity>

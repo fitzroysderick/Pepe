@@ -1,12 +1,14 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { router } from "expo-router";
+import { Link, router } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import Button from "../../../../../components/ui/Button";
 import Label from "../../../../../components/ui/Label";
 import { useScore } from "../../../../../hooks/use-score";
 import { useOutOf } from "../../../../../hooks/use-out-of";
+
+import { Feather } from "@expo/vector-icons";
 
 export default function Score() {
   const { score, updateScore } = useScore((state) => ({
@@ -46,6 +48,9 @@ export default function Score() {
           title="Go back to assessment"
         />
       </View>
+      <Link href="/" className="absolute top-4 right-4">
+        <Feather name="home" size={25} color="black" />
+      </Link>
     </SafeAreaView>
   );
 }

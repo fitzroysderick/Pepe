@@ -1,11 +1,13 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import { Link } from "expo-router";
+import Animated, { FadeIn, FadeInDown, FadeOut } from "react-native-reanimated";
 
 export default function ChapterCard({ label, image, route }) {
   return (
     <Link href={route} className="m-2">
-      <View
+      <Animated.View
+        entering={FadeInDown.duration(500)}
         style={{
           elevation: 5,
         }}
@@ -13,7 +15,7 @@ export default function ChapterCard({ label, image, route }) {
       >
         <Image source={image} className="w-32 h-32 rounded-lg" />
         <Text className="font-semibold">{label}</Text>
-      </View>
+      </Animated.View>
     </Link>
   );
 }

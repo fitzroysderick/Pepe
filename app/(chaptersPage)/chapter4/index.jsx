@@ -6,7 +6,7 @@ import Header from "../../../components/ui/Header";
 export default function Chapter4() {
   return (
     <View>
-      <Header title="Chapter 4" />
+      <Header title="Chapter 4" hasHome />
       <View className="pt-4 h-full gap-y-4 pb-52">
         <ScrollView className="h-full px-4 space-y-4">
           <Image

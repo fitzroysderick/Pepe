@@ -4,47 +4,128 @@ const quizzes = [
     content: [
       {
         level: "Easy",
-        question: "Who informed Rizal about the situation in Cuba?",
+        question:
+          "Ferdinand Blumentritt informed Rizal about the situation in Cuba.",
         choices: [
           {
-            letter: "A",
-            words: "Emilio Aguinaldo",
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "B",
-            words: "Ferdinand Bluemintritt",
-          },
-          {
-            letter: "C",
-            words: "Andres Bonifacio",
-          },
-          {
-            letter: "D",
-            words: "Manuel Camus",
+            letter: "F",
+            words: "False",
           },
         ],
-        answer: "B",
+        answer: "T",
       },
       {
         level: "Easy",
         question:
-          "What poem did Rizal write when he planned to travel to Europe and then to Cuba?",
+          "Rizal wrote the poem Mi Último Adiós when he planned to travel to Europe and then to Cuba.",
         choices: [
           {
-            letter: "A",
-            words: "Kundiman",
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "B",
-            words: "Mi Último Adiós",
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal wrote a letter to Governor General Ramon Blanco to volunteer as a military doctor in Cuba on December 19, 1885.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "C",
-            words: "El Canto del Viajero",
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal boarded the ship Isla de Panay to travel to Barcelona.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "D",
-            words: "A la Juventud Filipina",
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Emilio Jacinto confronted Rizal on the boat Caridad to rescue him.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "The Cry of Pugadlawin took place on August 23, 1896.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "While waiting for the ship Isla de Panay, Rizal was transferred to the Steamer Castilla.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+          ,
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Governor General Ramon Blanco approved Rizal’s request to volunteer as a military doctor in Cuba.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
           },
         ],
         answer: "C",
@@ -52,248 +133,65 @@ const quizzes = [
       {
         level: "Easy",
         question:
-          "On what date did Rizal write a letter to Governor General Ramon Blanco to volunteer as a military doctor in Cuba?",
+          "Rizal arrived in Barcelona on October 3, 1896, aboard the Isla de Panay.",
         choices: [
           {
-            letter: "A",
-            words: "December 19, 1885",
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "B",
-            words: "August 23, 1896",
-          },
-          {
-            letter: "C",
-            words: "October 6, 1896",
-          },
-          {
-            letter: "D",
-            words: "September 30, 1896",
+            letter: "F",
+            words: "False",
           },
         ],
-        answer: "A",
+        answer: "T",
       },
       {
         level: "Easy",
-        question:
-          "What was the name of the ship that Rizal boarded to travel to Barcelona?",
+        question: "RA 1425 was approved in June 12, 1956.",
         choices: [
           {
-            letter: "A",
-            words: "Isla de Luzon",
+            letter: "T",
+            words: "True",
           },
           {
-            letter: "B",
-            words: "Isla de Panay",
-          },
-          {
-            letter: "C",
-            words: "Castilla",
-          },
-          {
-            letter: "D",
-            words: "Colon",
+            letter: "F",
+            words: "False",
           },
         ],
-        answer: "B",
+        answer: "T",
       },
       {
-        level: "Easy",
-        question:
-          "Who among the Katipuneros confronted Rizal on the boat Caridad to rescue him?",
-        choices: [
-          {
-            letter: "A",
-            words: "Andres Bonifacio",
-          },
-          {
-            letter: "B",
-            words: "Emilio Aguinaldo",
-          },
-          {
-            letter: "C",
-            words: "Emilio Jacinto",
-          },
-          {
-            letter: "D",
-            words: "Guillermo Masangkay",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question:
-          "What was the historic event that took place on August 23, 1896?",
-        choices: [
-          {
-            letter: "A",
-            words: "Rizal’s execution",
-          },
-          {
-            letter: "B",
-            words: "Cry of Pugadlawin",
-          },
-          {
-            letter: "C",
-            words: "Declaration of Independence",
-          },
-          {
-            letter: "D",
-            words: "Battle of Manila",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question:
-          "Where was Rizal transferred while waiting for the ship Isla de Panay?",
-        choices: [
-          {
-            letter: "A",
-            words: "Montjuich Castle",
-          },
-          {
-            letter: "B",
-            words: "Fort Santiago",
-          },
-          {
-            letter: "C",
-            words: "Steamer Castilla",
-          },
-          {
-            letter: "D",
-            words: "Port Said",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question:
-          "Who approved Rizal’s request to volunteer as a military doctor in Cuba?",
-        choices: [
-          {
-            letter: "A",
-            words: "General Roman Despujol",
-          },
-          {
-            letter: "B",
-            words: "Governor General Ramon Blanco",
-          },
-          {
-            letter: "C",
-            words: "Colonel Francisco Olive",
-          },
-          {
-            letter: "D",
-            words: "Claro M. Recto",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question: "When did Rizal arrived in Barcelona on the Isla de Panay?",
-        choices: [
-          {
-            letter: "A",
-            words: "October 3, 1896",
-          },
-          {
-            letter: "B",
-            words: "September 27, 1896",
-          },
-          {
-            letter: "C",
-            words: "December 30, 1896",
-          },
-          {
-            letter: "D",
-            words: "November 3, 1896",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Easy",
-        question: "When did Rizal arrive in Barcelona on the Isla de Panay?",
-        choices: [
-          {
-            letter: "A",
-            words: "October 3, 1896",
-          },
-          {
-            letter: "B",
-            words: "September 27, 1896",
-          },
-          {
-            letter: "C",
-            words: "December 30, 1896",
-          },
-          {
-            letter: "D",
-            words: "November 3, 1896",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Easy",
+        level: "Hard",
         question: "When did Rizal arrive in Barcelona on the Isla de Panay?",
         answer: "October 3, 1896",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question: "Where was Rizal detained upon his arrival in Barcelona?",
         answer: "Montjuich Castle",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "What event prompted Bonifacio to summon all leaders of the Katipunan?",
         answer: "Mass arrests of Katipuneros",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "Where did Bonifacio and the Katipuneros retreat after attacking Manila?",
         answer: "Quezon City",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question: "Who attacked and captured the province of Cavite?",
         answer: "Emilio Aguinaldo",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Who disguised themselves as sailors to rescue Rizal?",
         answer: "Emilio Jacinto and Guillermo Masangkay",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who was the leader that issued a decree declaring a state of war in several provinces?",
-        choices: [
-          {
-            letter: "A",
-            words: "Andres Bonifacio and Emilio Jacinto",
-          },
-          {
-            letter: "B",
-            words: "Guillermo Masangkay and Emilio Aguinaldo",
-          },
-          {
-            letter: "C",
-            words: "Emilio Jacinto and Guillermo Masangkay",
-          },
-          {
-            letter: "D",
-            words: "Manuel Camus and Emilio Jacinto",
-          },
-        ],
-        answer: "A",
       },
       {
         level: "Medium",
@@ -484,30 +382,30 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "Who was appointed as the Judge Advocate to institute action against Rizal?",
         answer: "Captain Rafael Dominguez",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "What was the penalty for rebellion and sedition according to Rizal’s accusation?",
         answer: "Death",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Who testified that Rizal was against rebellion?",
         answer: "Pio Valenzuela",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "Who approved Rizal’s request to volunteer as a military doctor in Cuba?",
         answer: "Governor General Ramon Blanco",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question:
           "Which ship was supposed to take Rizal to Europe but had left earlier?",
         choices: [
@@ -531,7 +429,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question:
           "Who ruled that the laws of the British Empire could not apply to Rizal’s detention on the Colon?",
         choices: [
@@ -555,7 +453,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question: "Where was Rizal detained upon his arrival in Manila?",
         choices: [
           {
@@ -578,7 +476,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question: "Who testified that Rizal was against rebellion?",
         choices: [
           {
@@ -601,7 +499,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question:
           "Who headed the first military commission that convened to prosecute Rizal?",
         choices: [
@@ -625,7 +523,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question: "Who ordered Rizal’s execution?",
         choices: [
           {
@@ -648,7 +546,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
+        level: "Medium",
         question: "When did Governor General Blanco sign Rizal’s execution?",
         choices: [
           {
@@ -694,23 +592,176 @@ const quizzes = [
     content: [
       {
         level: "Easy",
+        question: "The Greek word for heroism is derived from Heros.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Jose Rizal is considered a national hero of the Philippines because of his contributions to the country’s well-being and his peaceful reform methods.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal's first novel is titled El Filibusterismo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Rizal was born on June 19, 1861.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal’s profession was as a lawyer.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Rizal opposed Spanish rule by joining armed uprisings.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal founded the Liga Filipina upon his return to the Philippines in 1892.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal was exiled to Cebu in 1892.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "El Filibusterismo is the sequel to Noli Me Tangere.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal’s final poem is called Mi Último Adiós or Last Farewell.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Hard",
         question: "What is the Greek word for heroism derived from?",
         answer: "Heros",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "Who is considered a national hero of the Philippines for his peaceful reform methods and significant contributions to the country’s well-being?",
         answer: "Jose Rizal",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "What is the title of Jose Rizal's first novel that vehemently criticized Spanish colonial governance in the Philippines?",
         answer: "Noli Me Tangere",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What is the title of Jose Rizal's first novel?",
         choices: [
           {
@@ -733,275 +784,19 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
-        question: "What was Jose Rizal’s profession?",
-        choices: [
-          {
-            letter: "A",
-            words: "Lawyer",
-          },
-          {
-            letter: "B",
-            words: "Scientist",
-          },
-          {
-            letter: "C",
-            words: "Physician",
-          },
-          {
-            letter: "D",
-            words: "Teacher",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question:
-          "Which group did Jose Rizal form upon his return to the Philippines in 1892?",
-        choices: [
-          {
-            letter: "A",
-            words: "Katipunan",
-          },
-          {
-            letter: "B",
-            words: "Liga Filipina",
-          },
-          {
-            letter: "C",
-            words: "La Solidaridad",
-          },
-          {
-            letter: "D",
-            words: "Propaganda Movement",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question: "How did Jose Rizal express his opposition to Spanish rule?",
-        choices: [
-          {
-            letter: "A",
-            words: "Through violent rebellion",
-          },
-          {
-            letter: "B",
-            words: "Through diplomatic negotiations",
-          },
-          {
-            letter: "C",
-            words: "Through his writings",
-          },
-          {
-            letter: "D",
-            words: "Through military service",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question: "When was Jose Rizal born?",
-        choices: [
-          {
-            letter: "A",
-            words: "June 19, 1861",
-          },
-          {
-            letter: "B",
-            words: "December 30, 1863",
-          },
-          {
-            letter: "C",
-            words: "July 4, 1862",
-          },
-          {
-            letter: "D",
-            words: "March 25, 1860",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Easy",
-        question: "Where did Jose Rizal attend university in Europe?",
-        choices: [
-          {
-            letter: "A",
-            words: "University of Paris",
-          },
-          {
-            letter: "B",
-            words: "University of Oxford",
-          },
-          {
-            letter: "C",
-            words: "University of Madrid ",
-          },
-          {
-            letter: "D",
-            words: "University of Berlin",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question:
-          "Which of the following was NOT part of Rizal's political platform?",
-        choices: [
-          {
-            letter: "A",
-            words: "Representation in the Spanish Cortes",
-          },
-          {
-            letter: "B",
-            words: "Permanent independence from Spain",
-          },
-          {
-            letter: "C",
-            words: "Freedom of assembly and speech",
-          },
-          {
-            letter: "D",
-            words: "Legal equality between Filipinos and Spaniards",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question: "Where was Rizal exiled in 1892?",
-        choices: [
-          {
-            letter: "A",
-            words: "Mindoro",
-          },
-          {
-            letter: "B",
-            words: "Palawan",
-          },
-          {
-            letter: "C",
-            words: "Dapitan",
-          },
-          {
-            letter: "D",
-            words: "Cebu",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question: "What was the name of Rizal's sequel to Noli Me Tangere?",
-        choices: [
-          {
-            letter: "A",
-            words: "El Filibusterismo",
-          },
-          {
-            letter: "B",
-            words: "La Solidaridad",
-          },
-          {
-            letter: "C",
-            words: "Ultimo Adiós",
-          },
-          {
-            letter: "D",
-            words: "Sucesos de las Islas Filipinas",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Easy",
-        question: "What was Rizal's famous final poem called?",
-        choices: [
-          {
-            letter: "A",
-            words: "Noli Me Tangere",
-          },
-          {
-            letter: "B",
-            words: " El Filibusterismo",
-          },
-          {
-            letter: "C",
-            words: "Last Farewell",
-          },
-          {
-            letter: "D",
-            words: "La Solidaridad",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Easy",
-        question: "When did Jose Rizal die?",
-        choices: [
-          {
-            letter: "A",
-            words: "June 19, 1896",
-          },
-          {
-            letter: "B",
-            words: "December 30, 1896",
-          },
-          {
-            letter: "C",
-            words: "July 4, 1897",
-          },
-          {
-            letter: "D",
-            words: "March 25, 1898",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question:
-          "Who chose Jose Rizal as the national hero of the Philippines?",
-        choices: [
-          {
-            letter: "A",
-            words: "Emilio Aguinaldo",
-          },
-          {
-            letter: "B",
-            words: "Andres Bonifacio",
-          },
-          {
-            letter: "C",
-            words: "The American colonial government",
-          },
-          {
-            letter: "D",
-            words: "The Spanish colonial government",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
+        level: "Hard",
         question:
           "What was the primary focus of the Liga Filipina, founded by Jose Rizal in 1892?",
         answer: "Nonviolent reform",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "What significant historical work did Jose Rizal annotate to illustrate the pre-colonial history of the Philippines?",
         answer: "Sucesos de las Islas Filipinas",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "Which organization published many of Rizal’s writings, advocating for Philippine reforms?",
         answer: "La Solidaridad",
@@ -1195,56 +990,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Hard",
-        question:
-          "What was one of the additional criteria for being a national hero according to Dr. Onofre D. Corpuz?",
-        choices: [
-          {
-            letter: "A",
-            words: "Wealth and social status",
-          },
-          {
-            letter: "B",
-            words: "Contribution to military victories",
-          },
-          {
-            letter: "C",
-            words:
-              "Contribution to the quality of life and destiny of a nation",
-          },
-          {
-            letter: "D",
-            words: "Religious devotion",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "How did Jose Rizal’s approach to reform differ from other Filipino revolutionaries?",
-        choices: [
-          {
-            letter: "A",
-            words: "He advocated for violent rebellion",
-          },
-          {
-            letter: "B",
-            words: "He used diplomatic negotiations",
-          },
-          {
-            letter: "C",
-            words: "He employed peaceful literary works",
-          },
-          {
-            letter: "D",
-            words: "He focused on religious reforms",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
+        level: "Medium",
         question:
           "What was the impact of Rizal’s annotated edition of Sucesos de las Islas Filipinas?",
         choices: [
@@ -1269,145 +1015,6 @@ const quizzes = [
       },
       {
         level: "Hard",
-        question: "How did Rizal’s death influence the Philippine revolution?",
-        choices: [
-          {
-            letter: "A",
-            words: "It ended the revolution",
-          },
-          {
-            letter: "B",
-            words: "It discouraged further resistance",
-          },
-          {
-            letter: "C",
-            words: "It inspired greater unity and resolve",
-          },
-          {
-            letter: "D",
-            words: "It led to immediate peace",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "In what year was El Filibusterismo published?",
-        choices: [
-          {
-            letter: "A",
-            words: "1887",
-          },
-          {
-            letter: "B",
-            words: "1891",
-          },
-          {
-            letter: "C",
-            words: "1890",
-          },
-          {
-            letter: "D",
-            words: "1889",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "What was Rizal’s ultimate goal for the Philippines?",
-        choices: [
-          {
-            letter: "A",
-            words: "Complete independence from Spain",
-          },
-          {
-            letter: "B",
-            words: "Permanent representation in the Spanish Cortes",
-          },
-          {
-            letter: "C",
-            words: "Economic domination",
-          },
-          {
-            letter: "D",
-            words: "Religious reform",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was one of the criteria for a hero according to Dr. Onofre D. Corpuz?",
-        choices: [
-          {
-            letter: "A",
-            words: "Wealth and power",
-          },
-          {
-            letter: "B",
-            words: "Military achievements",
-          },
-          {
-            letter: "C",
-            words: "Contribution to a system of freedom and order",
-          },
-          {
-            letter: "D",
-            words: "Religious devotion",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "How did Rizal’s writings influence Filipino society?",
-        choices: [
-          {
-            letter: "A",
-            words: "They were largely ignored",
-          },
-          {
-            letter: "B",
-            words: "They promoted Spanish colonial rule",
-          },
-          {
-            letter: "C",
-            words: "They inspired nationalistic sentiments",
-          },
-          {
-            letter: "D",
-            words: "They called for economic reforms",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "What was Rizal’s stance on violent revolution?",
-        choices: [
-          {
-            letter: "A",
-            words: "He strongly advocated for it",
-          },
-          {
-            letter: "B",
-            words: "He supported it under certain conditions",
-          },
-          {
-            letter: "C",
-            words: "He opposed it, preferring peaceful reforms",
-          },
-          {
-            letter: "D",
-            words: " He was indifferent to it",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
         question:
           "What was one of the additional criteria for being a national hero according to Dr. Onofre D. Corpuz, involving contribution to the nation’s quality of life and destiny?",
         answer: "Contribution to the quality of life and destiny of a nation",
@@ -1424,6 +1031,12 @@ const quizzes = [
           "Why did the Americans promote Jose Rizal as a national hero during their colonial period in the Philippines?",
         answer: "To discourage Filipino resistance against American rule",
       },
+      {
+        level: "Hard",
+        question:
+          "What was one of the criteria for heroism according to Dr. Onofre D. Corpuz?",
+        answer: "Contribution to the quality of life and destiny of a nation",
+      },
     ],
   },
   {
@@ -1431,17 +1044,173 @@ const quizzes = [
     content: [
       {
         level: "Easy",
+        question:
+          "Jose Rizal’s full name was Jose Protacio Rizal Mercado y Alonso Realonda.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "The Enlightenment influenced the American and French Revolutions.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal boarded the Salvadora ship for Singapore in 1882.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Ferdinand Blumentritt was Rizal’s Austrian friend to whom he wrote about Philippine studies.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal was born in the 20th century.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "The American and French Revolutions significantly contributed to the growth of nationalism in the 19th century.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "The phrase 'Nosce te ipsum' (Know Thyself) was used by Rizal to stimulate Philippine studies.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "The telephone and telegraph were significant inventions during the Industrial Revolution.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal’s first European country visited was France.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Manila was opened to world commerce in 1834.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Hard",
         question: "What was Jose Rizal’s full name?",
         answer: "Jose Protacio Rizal Mercado y Alonso Realonda",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "What movement influenced the American and French Revolutions?",
         answer: "Enlightenment",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "In which century was Jose Rizal born?",
         choices: [
           {
@@ -1464,7 +1233,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Which two revolutions significantly contributed to the growth of nationalism in the 19th century?",
         choices: [
@@ -1488,7 +1257,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What is the primary definition of nationalism according to the text?",
         choices: [
@@ -1513,7 +1282,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What phrase did Rizal use in his letter to Ferdinand Blumentritt to stimulate Philippine studies?",
         choices: [
@@ -1537,7 +1306,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Which major invention during the Industrial Revolution revolutionized communication?",
         choices: [
@@ -1561,7 +1330,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Which country did Jose Rizal visit first during his travels in Europe?",
         choices: [
@@ -1585,7 +1354,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What significant event took place in the Philippines in 1834?",
         choices: [
@@ -1609,7 +1378,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What was the role of the Ilustrados in Philippine society?",
         choices: [
           {
@@ -1632,7 +1401,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who were the mestizo de sangley?",
         choices: [
           {
@@ -1655,7 +1424,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "When did the American Revolution occur?",
         choices: [
           {
@@ -1678,7 +1447,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What did the Suez Canal connect?",
         choices: [
           {
@@ -1701,60 +1470,12 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
-        question:
-          "Who was Jose Rizal’s Austrian friend to whom he wrote about the importance of Philippine studies?",
-        choices: [
-          {
-            letter: "A",
-            words: "Maximo Viola",
-          },
-          {
-            letter: "B",
-            words: "Ferdinand Blumentritt",
-          },
-          {
-            letter: "C",
-            words: "Juan Luna",
-          },
-          {
-            letter: "D",
-            words: "Marcelo H. Del Pilar",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Easy",
-        question:
-          "What is the name of Rizal's novel where he hailed the Jesuits for their contributions to the education system in the Philippines?",
-        choices: [
-          {
-            letter: "A",
-            words: "El Filibusterismo",
-          },
-          {
-            letter: "B",
-            words: "La Solidaridad",
-          },
-          {
-            letter: "C",
-            words: "Noli Me Tangere",
-          },
-          {
-            letter: "D",
-            words: "Mi Ultimo Adios",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
+        level: "Hard",
         question: "What was the main theme of Rizal's novel El Filibusterismo?",
         answer: "Revenge and revolution",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "What year did Mexico gain independence, ending the Galleon Trade?",
         answer: "1815",
@@ -1781,194 +1502,6 @@ const quizzes = [
           },
         ],
         answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who were the Peninsulares in the Philippine social class system?",
-        choices: [
-          {
-            letter: "A",
-            words: "Spaniards born in the Philippines",
-          },
-          {
-            letter: "B",
-            words: "Filipinos of Chinese descent",
-          },
-          {
-            letter: "C",
-            words: "Pure-blooded Spaniards born in Spain",
-          },
-          {
-            letter: "D",
-            words: "Mixed-race individuals",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question:
-          "What was the main purpose of the Galleon Trade between Manila and Acapulco?",
-        choices: [
-          {
-            letter: "A",
-            words: "To promote tourism",
-          },
-          {
-            letter: "B",
-            words: "To exchange cultural practices",
-          },
-          {
-            letter: "C",
-            words: "To trade goods between the Philippines and Mexico",
-          },
-          {
-            letter: "D",
-            words: "To send missionaries to the Philippines",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question:
-          "What major change did the Industrial Revolution bring to the economy?",
-        choices: [
-          {
-            letter: "A",
-            words: "Introduction of manual labor",
-          },
-          {
-            letter: "B",
-            words: "Shift from manual labor to machine works",
-          },
-          {
-            letter: "C",
-            words: "Decline in urbanization",
-          },
-          {
-            letter: "D",
-            words: "Decrease in the growth of cities",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question: "Who is referred to as the Father of Filipino Nationalism?",
-        choices: [
-          {
-            letter: "A",
-            words: "Andres Bonifacio",
-          },
-          {
-            letter: "B",
-            words: "Emilio Aguinaldo",
-          },
-          {
-            letter: "C",
-            words: "Jose Rizal",
-          },
-          {
-            letter: "D",
-            words: "Juan Luna",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question:
-          "What significant invention improved transportation during the Industrial Revolution?",
-        choices: [
-          {
-            letter: "A",
-            words: "Steamships",
-          },
-          {
-            letter: "B",
-            words: "Printing press",
-          },
-          {
-            letter: "C",
-            words: "Telegraph",
-          },
-          {
-            letter: "D",
-            words: "Radio",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question: "What was Rizal's first publication abroad?",
-        choices: [
-          {
-            letter: "A",
-            words: "Noli Me Tangere",
-          },
-          {
-            letter: "B",
-            words: "El Filibusterismo",
-          },
-          {
-            letter: "C",
-            words: "El Amor Patrio",
-          },
-          {
-            letter: "D",
-            words: "Mi Ultimo Adios",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question: "What event marked the end of the Galleon Trade?",
-        choices: [
-          {
-            letter: "A",
-            words: "Opening of the Suez Canal",
-          },
-          {
-            letter: "B",
-            words: "Independence of Mexico from Spain",
-          },
-          {
-            letter: "C",
-            words: "Arrival of Governor-General Basco",
-          },
-          {
-            letter: "D",
-            words: "Start of the Philippine Revolution",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question: "What year did Rizal write El Amor Patrio?",
-        choices: [
-          {
-            letter: "A",
-            words: "1882",
-          },
-          {
-            letter: "B",
-            words: "1883",
-          },
-          {
-            letter: "C",
-            words: "1884",
-          },
-          {
-            letter: "D",
-            words: "1885",
-          },
-        ],
-        answer: "A",
       },
       {
         level: "Medium",
@@ -2014,167 +1547,19 @@ const quizzes = [
       {
         level: "Hard",
         question:
-          "What was the main reason behind the construction of the Suez Canal?",
-        choices: [
-          {
-            letter: "A",
-            words: "To promote tourism",
-          },
-          {
-            letter: "B",
-            words: "To facilitate easier maritime trade routes",
-          },
-          {
-            letter: "C",
-            words: "To improve agricultural productivity",
-          },
-          {
-            letter: "D",
-            words: "To establish military bases",
-          },
-        ],
-        answer: "B",
+          "What did the Americans bring to the Philippines after the Spanish-American War?",
+        answer: "Democracy",
       },
       {
         level: "Hard",
         question:
-          "Who was the first Filipino to lead a reform movement against Spanish colonial rule?",
-        choices: [
-          {
-            letter: "A",
-            words: "Marcelo H. Del Pilar",
-          },
-          {
-            letter: "B",
-            words: "Graciano Lopez Jaena",
-          },
-          {
-            letter: "C",
-            words: "Jose Rizal",
-          },
-          {
-            letter: "D",
-            words: "Andres Bonifacio",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "Where did Rizal complete his studies in Philosophy and Letters?",
-        choices: [
-          {
-            letter: "A",
-            words: "Ateneo Municipal de Manila",
-          },
-          {
-            letter: "B",
-            words: "University of Santo Tomas",
-          },
-          {
-            letter: "C",
-            words: "Universidad Central de Madrid",
-          },
-          {
-            letter: "D",
-            words: "Heidelberg University",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "In what year did the French Revolution begin?",
-        choices: [
-          {
-            letter: "A",
-            words: "1776",
-          },
-          {
-            letter: "B",
-            words: "1789",
-          },
-          {
-            letter: "C",
-            words: "1815",
-          },
-          {
-            letter: "D",
-            words: "1830",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "Which Philippine governor-general was known for promoting economic development in the Philippines?",
-        choices: [
-          {
-            letter: "A",
-            words: "Narciso Claveria",
-          },
-          {
-            letter: "B",
-            words: "Jose V. Basco",
-          },
-          {
-            letter: "C",
-            words: "Miguel Lopez de Legazpi",
-          },
-          {
-            letter: "D",
-            words: "Eulogio Despujol",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "What was the title of Rizal's first novel?",
-        choices: [
-          {
-            letter: "A",
-            words: "Noli Me Tangere",
-          },
-          {
-            letter: "B",
-            words: "El Filibusterismo",
-          },
-          {
-            letter: "C",
-            words: "La Solidaridad",
-          },
-          {
-            letter: "D",
-            words: "Mi Ultimo Adios",
-          },
-        ],
-        answer: "A",
+          "Which invention by Thomas Edison had a significant impact during the Industrial Revolution?",
+        answer: "Light bulb",
       },
       {
         level: "Hard",
         question: "Who introduced the Galleon Trade in the Philippines?",
-        choices: [
-          {
-            letter: "A",
-            words: "Ferdinand Magellan",
-          },
-          {
-            letter: "B",
-            words: "Miguel Lopez de Legazpi",
-          },
-          {
-            letter: "C",
-            words: "Andres Bonifacio",
-          },
-          {
-            letter: "D",
-            words: "Jose Rizal",
-          },
-        ],
-        answer: "B",
+        answer: "Miguel Lopez de Legazpi",
       },
     ],
   },
@@ -2183,21 +1568,232 @@ const quizzes = [
     content: [
       {
         level: "Easy",
+        question: "Jose Rizal was born on June 19, 1861.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal was born in Calamba, Laguna.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Pedro Casañas was Jose Rizal's godfather at his baptism.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Fr. Rufino Collantes baptized Jose Rizal.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal had 10 siblings.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "The surname “Rizal” means market.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Teodora Alonso Realonda was Jose Rizal's mother.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal was born on June 19, 1861.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal's nickname was Pepe.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal was born on June 19, 1861.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Francisco Mercado Rizal was Jose Rizal’s father.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Saturnina was the sister of Jose Rizal who married Manuel T. Hidalgo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Maria was nicknamed Biang.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Teodora Alonso Realonda was Rizal’s first teacher.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Hard",
         question: "When was Jose Rizal born?",
         answer: "June 19, 1861",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question: "Where was Jose Rizal born?",
         answer: "Calamba, Laguna",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question: "Who was Jose Rizal’s godfather at his baptism?",
         answer: "Pedro Casañas",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What is the meaning of the surname “Rizal”?",
         choices: [
           {
@@ -2220,7 +1816,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who baptized Jose Rizal?",
         choices: [
           {
@@ -2243,7 +1839,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "How many siblings did Jose Rizal have?",
         choices: [
           {
@@ -2266,7 +1862,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What was the name of Jose Rizal's mother?",
         choices: [
           {
@@ -2289,7 +1885,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What was the nickname of Jose Rizal?",
         choices: [
           {
@@ -2312,7 +1908,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What was the name of Jose Rizal's father?",
         choices: [
           {
@@ -2335,7 +1931,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Which sister of Jose Rizal married Manuel T. Hidalgo?",
         choices: [
           {
@@ -2358,7 +1954,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Which Rizal sibling was nicknamed “Biang”?",
         choices: [
           {
@@ -2381,7 +1977,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What is the meaning of the surname “Rizal”?",
         choices: [
           {
@@ -2404,7 +2000,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who was Rizal’s first teacher?",
         choices: [
           {
@@ -2427,7 +2023,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Who among Rizal’s uncles inspired him to develop his artistic ability?",
         choices: [
@@ -2451,7 +2047,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who among Rizal’s siblings was nicknamed “Concha”?",
         choices: [
           {
@@ -2474,7 +2070,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What was the first poem written by Jose Rizal?",
         choices: [
           {
@@ -2544,182 +2140,17 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Medium",
-        question: "What was the pet name of Josefa Rizal?",
-        choices: [
-          {
-            letter: "A",
-            words: "Trining",
-          },
-          {
-            letter: "B",
-            words: "Concha",
-          },
-          {
-            letter: "C",
-            words: "Panggoy",
-          },
-          {
-            letter: "D",
-            words: "Choleng",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who was Rizal’s great-great grandfather on his father's side?",
-        choices: [
-          {
-            letter: "A",
-            words: "Eugenio Ursua",
-          },
-          {
-            letter: "B",
-            words: "Domingo Lamco",
-          },
-          {
-            letter: "C",
-            words: "Francisco Mercado",
-          },
-          {
-            letter: "D",
-            words: "Juan Mercado",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who among Rizal’s siblings lived as a gentleman farmer in Los Baños?",
-        choices: [
-          {
-            letter: "A",
-            words: "Paciano",
-          },
-          {
-            letter: "B",
-            words: "Manuel",
-          },
-          {
-            letter: "C",
-            words: "Gregorio",
-          },
-          {
-            letter: "D",
-            words: "Antonio",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who among Rizal’s uncles intensified his voracious reading of good books?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tio Manuel",
-          },
-          {
-            letter: "B",
-            words: "Tio Gregorio",
-          },
-          {
-            letter: "C",
-            words: "Tio Jose Alberto",
-          },
-          {
-            letter: "D",
-            words: "Tio Antonio",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question: "Which Rizal sibling was nicknamed “Trining”?",
-        choices: [
-          {
-            letter: "A",
-            words: "Trinidad",
-          },
-          {
-            letter: "B",
-            words: "Soledad",
-          },
-          {
-            letter: "C",
-            words: "Concepcion",
-          },
-          {
-            letter: "D",
-            words: "Maria",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question: "Who married Pantaleon Quintero of Calamba?",
-        choices: [
-          {
-            letter: "A",
-            words: "Saturnina",
-          },
-          {
-            letter: "B",
-            words: "Soledad",
-          },
-          {
-            letter: "C",
-            words: "Lucia",
-          },
-          {
-            letter: "D",
-            words: "Olimpia",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who was Rizal’s great-great grandfather on his mother's side?",
-        choices: [
-          {
-            letter: "A",
-            words: "Domingo Lamco",
-          },
-          {
-            letter: "B",
-            words: "Eugenio Ursua",
-          },
-          {
-            letter: "C",
-            words: "Francisco Mercado",
-          },
-          {
-            letter: "D",
-            words: " Juan Mercado",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
+        level: "Hard",
         question: "On what date was Jose Rizal baptized?",
         answer: "June 22, 1861",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "What is the meaning of the surname “Mercado”?",
         answer: "Market",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Who was Jose Rizal’s older brother and confidant?",
         answer: "Paciano",
       },
@@ -2740,212 +2171,8 @@ const quizzes = [
       },
       {
         level: "Hard",
-        question:
-          "Who was Rizal’s great-great grandfather on his father's side?",
-        choices: [
-          {
-            letter: "A",
-            words: "Eugenio Ursua",
-          },
-          {
-            letter: "B",
-            words: "Domingo Lamco",
-          },
-          {
-            letter: "C",
-            words: "Francisco Mercado",
-          },
-          {
-            letter: "D",
-            words: "Juan Mercado",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "Which of Rizal's siblings was married to Mariano Herbosa?",
-        choices: [
-          {
-            letter: "A",
-            words: "Lucia",
-          },
-          {
-            letter: "B",
-            words: "Maria",
-          },
-          {
-            letter: "C",
-            words: "Saturnina",
-          },
-          {
-            letter: "D",
-            words: "Olimpia",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question:
-          "Who among Rizal’s uncles studied for eleven years in a British school?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tio Manuel",
-          },
-          {
-            letter: "B",
-            words: "Tio Gregorio",
-          },
-          {
-            letter: "C",
-            words: "Tio Jose Alberto",
-          },
-          {
-            letter: "D",
-            words: "Tio Antonio",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "Who inspired Rizal to write poetry?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tio Gregorio",
-          },
-          {
-            letter: "B",
-            words: "Tio Jose Alberto",
-          },
-          {
-            letter: "C",
-            words: "His mother",
-          },
-          {
-            letter: "D",
-            words: "His father",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "Who among Rizal’s siblings had a pet name Choleng?",
-        choices: [
-          {
-            letter: "A",
-            words: "Trinidad",
-          },
-          {
-            letter: "B",
-            words: "Concepcion",
-          },
-          {
-            letter: "C",
-            words: "Soledad",
-          },
-          {
-            letter: "D",
-            words: "Maria",
-          },
-        ],
-        answer: "c",
-      },
-      {
-        level: "Hard",
-        question: "What year did Francisco Mercado Rizal die?",
-        choices: [
-          {
-            letter: "A",
-            words: "1896",
-          },
-          {
-            letter: "B",
-            words: "1897",
-          },
-          {
-            letter: "C",
-            words: "1898",
-          },
-          {
-            letter: "D",
-            words: "1899",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question: "Which of Rizal's siblings was nicknamed Ypia?",
-        choices: [
-          {
-            letter: "A",
-            words: "Saturnina",
-          },
-          {
-            letter: "B",
-            words: "Maria",
-          },
-          {
-            letter: "C",
-            words: "Lucia",
-          },
-          {
-            letter: "D",
-            words: "Olimpia",
-          },
-        ],
-        answer: "D",
-      },
-      {
-        level: "Hard",
-        question: "Who was the first to discover Rizal's talent for poetry?",
-        choices: [
-          {
-            letter: "A",
-            words: "His father",
-          },
-          {
-            letter: "B",
-            words: "His mother",
-          },
-          {
-            letter: "C",
-            words: "Tio Gregorio",
-          },
-          {
-            letter: "D",
-            words: "Tio Jose Alberto",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "What is the meaning of Rizal in Spanish?",
-        choices: [
-          {
-            letter: "A",
-            words: "Market",
-          },
-          {
-            letter: "B",
-            words: "Green field",
-          },
-          {
-            letter: "C",
-            words: "New pasture",
-          },
-          {
-            letter: "D",
-            words: "Both b and c",
-          },
-        ],
-        answer: "D",
+        question: "What is the meaning of 'Rizal' in Spanish?",
+        answer: "Both green field and new pasture",
       },
     ],
   },
@@ -2954,23 +2181,255 @@ const quizzes = [
     content: [
       {
         level: "Easy",
+        question: "Rizal's first teacher was his mother.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Jose Rizal entered Ateneo Municipal de Manila at the age of 12.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal excelled in Mathematics, Physics, and Chemistry during his time at Ateneo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal earned a Doctor of Medicine degree from the Ateneo Municipal.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal went to the University of Heidelberg to study ophthalmology after his time at the University of Santo Tomas.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Paciano was the older brother who accompanied Rizal to Biñan.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Fr. Jose Bech was Rizal’s first teacher in Ateneo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal had a talent for painting when he was young.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Rizal’s first novel was El Filibusterismo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Rizal completed his eye specialization course in Paris.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Rizal took private lessons in Spanish while at Ateneo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Fr. Pablo Ramon recommended Rizal to study medicine.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal improved his sculpture skills under the supervision of Romualdo de Jesus.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal wrote the poem 'Junto al Pasig' to honor the Virgin of Antipolo.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Rizal’s mother, Dona Teodora, taught him Spanish and Latin.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Hard",
         question: "Who was Jose Rizal’s first teacher?",
         answer: "His mother",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "At what age did Jose Rizal enter Ateneo Municipal de Manila?",
         answer: "11 years old",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "Which subject did Rizal excel in during his time at Ateneo Municipal de Manila?",
         answer: "Mathematics, Physics, Chemistry",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What degree did Rizal earn from the Ateneo Municipal?",
         choices: [
           {
@@ -2993,7 +2452,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Where did Rizal go to study ophthalmology after his time at the University of Santo Tomas?",
         choices: [
@@ -3017,7 +2476,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who was Rizal’s older brother who accompanied him to Biñan?",
         choices: [
           {
@@ -3040,7 +2499,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who was Rizal’s first teacher in Ateneo?",
         choices: [
           {
@@ -3063,7 +2522,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What did Rizal’s mother discover about him when he was young?",
         choices: [
@@ -3087,7 +2546,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What is the title of Rizal’s first novel?",
         choices: [
           {
@@ -3110,7 +2569,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What did Rizal take private lessons in to improve while at Ateneo?",
         choices: [
@@ -3134,7 +2593,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who recommended Rizal to study medicine?",
         choices: [
           {
@@ -3157,7 +2616,7 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Which artistic skill did Rizal improve under the supervision of Romualdo de Jesus?",
         choices: [
@@ -3181,7 +2640,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "What did Rizal write to honor the Virgin of Antipolo?",
         choices: [
           {
@@ -3204,7 +2663,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who taught Rizal Spanish and Latin as a child?",
         choices: [
           {
@@ -3227,161 +2686,20 @@ const quizzes = [
         answer: "D",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Which school did Rizal enter in 1872?",
         answer: "Ateneo Municipal de Manila",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "What was the primary reason Rizal decided to study ophthalmology?",
         answer: "He wanted to cure his mother’s failing eyesight",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Where did Rizal earn his Licentiate in Medicine?",
         answer: "Universidad Central de Madrid",
-      },
-      {
-        level: "Medium",
-        question:
-          "Which extracurricular society was Rizal a secretary of while at Ateneo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Academy of Spanish Literature",
-          },
-          {
-            letter: "B",
-            words: "Academy of Natural Sciences",
-          },
-          {
-            letter: "C",
-            words: "Marian Congregation Religious Society",
-          },
-          {
-            letter: "D",
-            words: "None of the above",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question: "Who was Rizal’s teacher in Biñan?",
-        choices: [
-          {
-            letter: "A",
-            words: "Maestro Lucas",
-          },
-          {
-            letter: "B",
-            words: "Maestro Justiniano",
-          },
-          {
-            letter: "C",
-            words: "Maestro Celestino",
-          },
-          {
-            letter: "D",
-            words: " Maestro Leon Monroy",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question: "Which famous painter did Rizal study painting under?",
-        choices: [
-          {
-            letter: "A",
-            words: "Agustin Saez",
-          },
-          {
-            letter: "B",
-            words: "Romualdo de Jesus",
-          },
-          {
-            letter: "C",
-            words: "Dr. Otto Becker",
-          },
-          {
-            letter: "D",
-            words: "Blas Echegoyen",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question:
-          "What was the name of the German scientist-traveler whose book Rizal read?",
-        choices: [
-          {
-            letter: "A",
-            words: "Alexander Dumas",
-          },
-          {
-            letter: "B",
-            words: "Dr. Feodor Jagor",
-          },
-          {
-            letter: "C",
-            words: "Dr. Louis de Weckert",
-          },
-          {
-            letter: "D",
-            words: "Maximo Viola",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "How many medals did Rizal receive during his fourth year at Ateneo?",
-        choices: [
-          {
-            letter: "A",
-            words: "3",
-          },
-          {
-            letter: "B",
-            words: "4",
-          },
-          {
-            letter: "C",
-            words: "5",
-          },
-          {
-            letter: "D",
-            words: "6",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question: "What was the name of Rizal's first favorite novel?",
-        choices: [
-          {
-            letter: "A",
-            words: "The Count of Monte Cristo",
-          },
-          {
-            letter: "B",
-            words: "Universal History",
-          },
-          {
-            letter: "C",
-            words: "Travels in the Philippines",
-          },
-          {
-            letter: "D",
-            words: "Noli Me Tangere",
-          },
-        ],
-        answer: "A",
       },
       {
         level: "Medium",
@@ -3499,215 +2817,8 @@ const quizzes = [
       {
         level: "Hard",
         question:
-          "Where did Rizal write the poem “A Las Flores de Heidelberg”?",
-        choices: [
-          {
-            letter: "A",
-            words: "Paris",
-          },
-          {
-            letter: "B",
-            words: "Madrid",
-          },
-          {
-            letter: "C",
-            words: "Heidelberg",
-          },
-          {
-            letter: "D",
-            words: "Berlin",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was Rizal’s global grade in his last year at the University of Santo Tomas?",
-        choices: [
-          {
-            letter: "A",
-            words: "Sobresaliente",
-          },
-          {
-            letter: "B",
-            words: "Notable",
-          },
-          {
-            letter: "C",
-            words: "Aprobado",
-          },
-          {
-            letter: "D",
-            words: "Suspenso",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "What is the title of Rizal’s unfinished third novel?",
-        choices: [
-          {
-            letter: "A",
-            words: "Makamisa",
-          },
-          {
-            letter: "B",
-            words: "El Filibusterismo",
-          },
-          {
-            letter: "C",
-            words: "Noli Me Tangere",
-          },
-          {
-            letter: "D",
-            words: "La Indolencia de los Filipino",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was Rizal’s average grade in his first year of secondary education at Ateneo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Excellent",
-          },
-          {
-            letter: "B",
-            words: "Very Good",
-          },
-          {
-            letter: "C",
-            words: "Good",
-          },
-          {
-            letter: "D",
-            words: "Fair",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question: "Which two subjects did Rizal fail in his first term at UST?",
-        choices: [
-          {
-            letter: "A",
-            words: "Philosophy and Anatomy",
-          },
-          {
-            letter: "B",
-            words: "Cosmology and Metaphysics",
-          },
-          {
-            letter: "C",
-            words: "Physics and Chemistry",
-          },
-          {
-            letter: "D",
-            words: "Logic and History",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question: "What skill did Rizal practice with Dr. Louis de Weckert?",
-        choices: [
-          {
-            letter: "A",
-            words: "Painting",
-          },
-          {
-            letter: "B",
-            words: "Sculpture",
-          },
-          {
-            letter: "C",
-            words: "Ophthalmology",
-          },
-          {
-            letter: "D",
-            words: "Drawing",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was the pen name Rizal used for his essays in La Solidaridad?",
-        choices: [
-          {
-            letter: "A",
-            words: "Pepe",
-          },
-          {
-            letter: "B",
-            words: "Laong Laan",
-          },
-          {
-            letter: "C",
-            words: "Dimasalang",
-          },
-          {
-            letter: "D",
-            words: "Jose Mercado",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "In which subject did Rizal receive a “sobresaliente” grade during his fourth year at Ateneo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Agriculture",
-          },
-          {
-            letter: "B",
-            words: "Philosophy",
-          },
-          {
-            letter: "C",
-            words: "Poetry",
-          },
-          {
-            letter: "D",
-            words: "Religion",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
           "What was the title of the poem Rizal wrote when he was 8 years old?",
-        choices: [
-          {
-            letter: "A",
-            words: "El Consejo delos Diosese",
-          },
-          {
-            letter: "B",
-            words: "Mi Primera Inspiracion",
-          },
-          {
-            letter: "C",
-            words: "Sa Aking mga Kababata",
-          },
-          {
-            letter: "D",
-            words: "A La Juventud Filipina",
-          },
-        ],
-        answer: "C",
+        answer: "Sa Aking mga Kababata",
       },
     ],
   },
@@ -3717,22 +2828,254 @@ const quizzes = [
       {
         level: "Easy",
         question:
+          "Jose Rizal's first essay written when he was 21 and newly arrived in Madrid was titled 'The Love of Country'.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "'The Love of Country' was first published in Diariong Tagalog under the pseudonym 'Laong Laan'.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "The Latin translation of Noli Me Tángere is Touch Me Not.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "The protagonist of Noli Me Tangere is Crisóstomo Ibarra.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal's primary purpose in writing 'On the Indolence of the Filipino' was to criticize Spanish colonial policies.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question: "Simoun in 'El Filibusterismo' is Crisóstomo Ibarra.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Basilio's sweetheart in El Filibusterismo' is Juli.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Father Florentino is Isagani's father in 'El Filibusterismo'.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "Simoun is the Captain-General's confidant in 'El Filibusterismo'.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Father Salví is accused of rape in 'El Filibusterismo'.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal founded La Liga Filipina.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Bonifacio Arévalo was the treasurer of La Liga Filipina.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Easy",
+        question:
+          "Rizal practiced the profession of a physician during his exile in Dapitan.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question:
+          "Jose Rizal wrote his poem 'Mi último adiós' on the morning of his execution.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "T",
+      },
+      {
+        level: "Easy",
+        question: "Jose Rizal was executed in Fort Santiago.",
+        choices: [
+          {
+            letter: "T",
+            words: "True",
+          },
+          {
+            letter: "F",
+            words: "False",
+          },
+        ],
+        answer: "F",
+      },
+      {
+        level: "Hard",
+        question:
           "What was the title of Rizal’s first essay written when he was 21 and newly arrived in Madrid?",
         answer: "The Love of Country",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question:
           "Under what pseudonym was The Love of Country first published in Diariong Tagalog?",
         answer: "Laong Laan",
       },
       {
-        level: "Easy",
+        level: "Hard",
         question: "What is the Latin translation of Noli Me Tángere?",
         answer: "Touch Me Not",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is the protagonist of Noli Me Tangere?",
         choices: [
           {
@@ -3755,7 +3098,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "What was Rizal's primary purpose in writing On the Indolence of the Filipino?",
         choices: [
@@ -3779,7 +3122,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is Simoun in El Filibusterismo?",
         choices: [
           {
@@ -3802,7 +3145,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is Basilio's sweetheart in El Filibusterismo?",
         choices: [
           {
@@ -3825,7 +3168,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is Father Florentino to Isagani?",
         choices: [
           {
@@ -3848,7 +3191,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is Captain-General's confidant in El Filibusterismo?",
         choices: [
           {
@@ -3871,7 +3214,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who is accused of rape in El Filibusterismo?",
         choices: [
           {
@@ -3894,7 +3237,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Who founded the La Liga Filipina?",
         choices: [
           {
@@ -3917,7 +3260,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "Which individual served as the treasurer of the La Liga Filipina?",
         choices: [
@@ -3941,7 +3284,7 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question:
           "During his exile in Dapitan, what profession did Rizal practice?",
         choices: [
@@ -3965,7 +3308,7 @@ const quizzes = [
         answer: "C",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "When did Jose Rizal write his poem Mi último adiós?",
         choices: [
           {
@@ -3988,7 +3331,7 @@ const quizzes = [
         answer: "A",
       },
       {
-        level: "Easy",
+        level: "Medium",
         question: "Where was Jose Rizal executed?",
         choices: [
           {
@@ -4011,307 +3354,20 @@ const quizzes = [
         answer: "B",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "What was the original Spanish title of Touch Me Not?",
         answer: "Noli Me Tángere",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question: "Who was Crisóstomo Ibarra’s childhood sweetheart?",
         answer: "María Clara",
       },
       {
-        level: "Medium",
+        level: "Hard",
         question:
           "Which character in Noli Me Tangere is described as a local philosopher?",
         answer: "Don Anastacio",
-      },
-      {
-        level: "Medium",
-        question:
-          "Which essay by Rizal is addressed to the young women of Malolos?",
-        choices: [
-          {
-            letter: "A",
-            words: "The Love of Country",
-          },
-          {
-            letter: "B",
-            words: "El Amor Patrio",
-          },
-          {
-            letter: "C",
-            words: "On the Indolence of the Filipino",
-          },
-          {
-            letter: "D",
-            words: "Letter to the Women of Malolos",
-          },
-        ],
-        answer: "D",
-      },
-      {
-        level: "Medium",
-        question: "What was José Rizal's primary profession?",
-        choices: [
-          {
-            letter: "A",
-            words: "Lawyer",
-          },
-          {
-            letter: "B",
-            words: "Doctor",
-          },
-          {
-            letter: "C",
-            words: "Teacher",
-          },
-          {
-            letter: "D",
-            words: "Politician",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who was the leader of La Liga Filipina founded by José Rizal?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tandang Selo",
-          },
-          {
-            letter: "B",
-            words: "Captain-General",
-          },
-          {
-            letter: "C",
-            words: "Simoun",
-          },
-          {
-            letter: "D",
-            words: "José Rizal",
-          },
-        ],
-        answer: "D",
-      },
-      {
-        level: "Medium",
-        question:
-          "Which character from El Filibusterismo becomes a bomb-maker for Simoun?",
-        choices: [
-          {
-            letter: "A",
-            words: "Isagani",
-          },
-          {
-            letter: "B",
-            words: "Basilio",
-          },
-          {
-            letter: "C",
-            words: "Placido Penitente",
-          },
-          {
-            letter: "D",
-            words: "Father Salví",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who is described as a quiet, contemplative man in El Filibusterismo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Simoun",
-          },
-          {
-            letter: "B",
-            words: "Basilio",
-          },
-          {
-            letter: "C",
-            words: "Isagani",
-          },
-          {
-            letter: "D",
-            words: "Father Florentino",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who is the girlfriend of Isagani who later marries Juanito Peláez?",
-        choices: [
-          {
-            letter: "A",
-            words: "Paulita Gómez",
-          },
-          {
-            letter: "B",
-            words: "Juli",
-          },
-          {
-            letter: "C",
-            words: "Doña Victorina",
-          },
-          {
-            letter: "D",
-            words: "María Clara",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who is known as the columnist for El Grito de la Integridad in El Filibusterismo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Father Salví",
-          },
-          {
-            letter: "B",
-            words: "Ben-Zayb",
-          },
-          {
-            letter: "C",
-            words: "Father Írene",
-          },
-          {
-            letter: "D",
-            words: "Father Camorra",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "Which European country did Josephine Bracken come from before arriving in Dapitan?",
-        choices: [
-          {
-            letter: "A",
-            words: "Spain",
-          },
-          {
-            letter: "B",
-            words: "Germany",
-          },
-          {
-            letter: "C",
-            words: "England",
-          },
-          {
-            letter: "D",
-            words: "Ireland",
-          },
-        ],
-        answer: "D",
-      },
-      {
-        level: "Medium",
-        question:
-          "What title did Rizal obtain from the Ateneo Municipal which he applied in constructing a waterworks system in Dapitan?",
-        choices: [
-          {
-            letter: "A",
-            words: "Expert Surveyor",
-          },
-          {
-            letter: "B",
-            words: "Master Engineer",
-          },
-          {
-            letter: "C",
-            words: "Agriculturalist",
-          },
-          {
-            letter: "D",
-            words: "Linguist",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question:
-          "Who was the parish priest in Dapitan who initially refused to marry Rizal and Josephine Bracken?",
-        choices: [
-          {
-            letter: "A",
-            words: "Father Francisco Sanchez",
-          },
-          {
-            letter: "B",
-            words: "Father Pedro Obach",
-          },
-          {
-            letter: "C",
-            words: "Father Pablo Pastells",
-          },
-          {
-            letter: "D",
-            words: "Father Antonio Piernavieja",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Medium",
-        question:
-          "What did Jose Rizal refuse when Katipuneros attempted to rescue him from the ship Isla de Luzon?",
-        choices: [
-          {
-            letter: "A",
-            words: "A chance to escape",
-          },
-          {
-            letter: "B",
-            words: "Medical assistance",
-          },
-          {
-            letter: "C",
-            words: "Weapons for defense",
-          },
-          {
-            letter: "D",
-            words: "Political asylum",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Medium",
-        question:
-          "What was the charge for which Jose Rizal was found guilty during his trial?",
-        choices: [
-          {
-            letter: "A",
-            words: "Murder",
-          },
-          {
-            letter: "B",
-            words: "Sedition",
-          },
-          {
-            letter: "C",
-            words: "Theft",
-          },
-          {
-            letter: "D",
-            words: "Espionage",
-          },
-        ],
-        answer: "B",
       },
       {
         level: "Hard",
@@ -4334,290 +3390,8 @@ const quizzes = [
       {
         level: "Hard",
         question:
-          "What impact did Rizal's novels have on Philippine society during the late 19th century?",
-        choices: [
-          {
-            letter: "A",
-            words: "They sparked nationalist movements",
-          },
-          {
-            letter: "B",
-            words: "They promoted religious unity",
-          },
-          {
-            letter: "C",
-            words: "They encouraged Spanish colonization",
-          },
-          {
-            letter: "D",
-            words: "They led to educational reforms",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question:
-          "Which character in Noli Me Tangere embodies the corrupt power of the Spanish friars?",
-        choices: [
-          {
-            letter: "A",
-            words: "Padre Dámaso",
-          },
-          {
-            letter: "B",
-            words: "Crisóstomo Ibarra",
-          },
-          {
-            letter: "C",
-            words: "Elías",
-          },
-          {
-            letter: "D",
-            words: "María Clara",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was the fate of La Liga Filipina after José Rizal's exile to Dapitan?",
-        choices: [
-          {
-            letter: "A",
-            words: "It became inactive",
-          },
-          {
-            letter: "B",
-            words: "It merged with Katipunan",
-          },
-          {
-            letter: "C",
-            words: "It supported Spanish authorities",
-          },
-          {
-            letter: "D",
-            words: "It dissolved after a leadership dispute",
-          },
-        ],
-        answer: "D",
-      },
-      {
-        level: "Hard",
-        question:
-          "Who among the characters in El Filibusterismo was a former cabeza de barangay of Barrio Sagpang?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tandang Selo",
-          },
-          {
-            letter: "B",
-            words: "Isagani",
-          },
-          {
-            letter: "C",
-            words: "Father Florentino",
-          },
-          {
-            letter: "D",
-            words: "Simoun",
-          },
-        ],
-        answer: "A",
-      },
-      {
-        level: "Hard",
-        question:
-          "Which character in El Filibusterismo was accused of being a member of the student association despised by the friars?",
-        choices: [
-          {
-            letter: "A",
-            words: "Father Salví",
-          },
-          {
-            letter: "B",
-            words: "Placido Penitente",
-          },
-          {
-            letter: "C",
-            words: "Captain-General",
-          },
-          {
-            letter: "D",
-            words: "Father Camorra",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "Who became a fierce commander among the bandits in El Filibusterismo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Tandang Selo",
-          },
-          {
-            letter: "B",
-            words: "Juli",
-          },
-          {
-            letter: "C",
-            words: "Tano",
-          },
-          {
-            letter: "D",
-            words: "Basilio",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "Who was described as having an insatiable lust for gold in El Filibusterismo?",
-        choices: [
-          {
-            letter: "A",
-            words: "Simoun",
-          },
-          {
-            letter: "B",
-            words: "Captain-General",
-          },
-          {
-            letter: "C",
-            words: "Father Fernández",
-          },
-          {
-            letter: "D",
-            words: "Quiroga",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was the name of the blind companion who accompanied Dr. Pio Valenzuela to Dapitan to inform Rizal about the Katipunan's plans?",
-        choices: [
-          {
-            letter: "A",
-            words: "Ramon Carreon",
-          },
-          {
-            letter: "B",
-            words: "George Taufer",
-          },
-          {
-            letter: "C",
-            words: "Raymundo Mata",
-          },
-          {
-            letter: "D",
-            words: "Marcelo H. del Pilar",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "What was the name of the steamer Rizal boarded when he left Dapitan for his exile in Spain? ",
-        choices: [
-          {
-            letter: "A",
-            words: "Cebu",
-          },
-          {
-            letter: "B",
-            words: "España",
-          },
-          {
-            letter: "C",
-            words: "Isla de Luzon",
-          },
-          {
-            letter: "D",
-            words: "Castilla",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
-          "Which of the following inventions did Rizal create during his exile in Dapitan, showcasing his engineering skills?",
-        choices: [
-          {
-            letter: "A",
-            words: "Waterworks system",
-          },
-          {
-            letter: "B",
-            words: "Agricultural machinery",
-          },
-          {
-            letter: "C",
-            words: "Wooden brick-maker",
-          },
-          {
-            letter: "D",
-            words: "Hemp processing machine",
-          },
-        ],
-        answer: "C",
-      },
-      {
-        level: "Hard",
-        question:
-          "Which specific document was used as testimonial evidence against Jose Rizal during his trial?",
-        choices: [
-          {
-            letter: "A",
-            words: "A poem entitled Kundiman",
-          },
-          {
-            letter: "B",
-            words: "A Masonic document",
-          },
-          {
-            letter: "C",
-            words: "A letter from Marcelo H. del Pilar",
-          },
-          {
-            letter: "D",
-            words: "A speech by Pingkian (Emilio Jacinto)",
-          },
-        ],
-        answer: "B",
-      },
-      {
-        level: "Hard",
-        question:
           "What was the penalty Jose Rizal faced for the crimes he was charged with?",
-        choices: [
-          {
-            letter: "A",
-            words: "Life imprisonment",
-          },
-          {
-            letter: "B",
-            words: "Exile to Guam",
-          },
-          {
-            letter: "C",
-            words: "Death by firing squad",
-          },
-          {
-            letter: "D",
-            words: "A heavy fine",
-          },
-        ],
-        answer: "C",
+        answer: "Death by firing squad",
       },
     ],
   },

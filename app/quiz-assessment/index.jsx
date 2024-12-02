@@ -22,8 +22,8 @@ export default function index() {
       <ScrollView className="flex-1 pt-8 space-y-4">
         <Label title="Choose a Chapter" />
         <View className="mx-8 pb-20">
-          {quizAssessment.map((qa) => (
-            <QuizAssessmentCard key={qa.id} id={qa.id} label={qa.label} />
+          {quizAssessment.map((qa, idx) => (
+            <QuizAssessmentCard key={qa.id} idx={idx} id={qa.id} label={qa.label} />
           ))}
         </View>
       </ScrollView>

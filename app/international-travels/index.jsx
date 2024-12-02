@@ -3,11 +3,11 @@ import { View, Text, ScrollView } from "react-native";
 
 import Header from "../../components/ui/Header";
 
-export default function index() {
+export default function InternationalTravels() {
   return (
     <View className="h-screen">
       <Header title="International Travels of Rizal" />
-      <ScrollView className="flex-1 px-4 space-y-2 mb-10">
+      <ScrollView className="flex-1 px-4 space-y-2">
         <Text className="text-xl font-bold">
           Departure for Spain (1882-1885)
         </Text>
@@ -710,7 +710,7 @@ export default function index() {
             house.
           </Text>
         </View>
-        <View className="flex-row space-x-2 ml-2">
+        <View className="flex-row space-x-2 ml-2 mb-10">
           <Text>•</Text>
           <Text>
             After his arrival, Rizal searched for the printing shop that could

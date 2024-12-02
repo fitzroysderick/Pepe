@@ -6,6 +6,7 @@ export default function App() {
       screenOptions={{
         headerShown: false,
         gestureEnabled: false,
+        animation: "fade_from_bottom",
       }}
     >
       <Stack.Screen name="(tabs)" />
